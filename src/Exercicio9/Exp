@@ -1,0 +1,23 @@
+ reutilização vem de manter três coisas separadas: as regras, o motor de validação e o domínio.
+Nenhuma delas conhece as outras diretamente, e é isso que permite usar o mesmo código para Cliente, Produto, Pedido ou qualquer classe nova.
+
+1. As regras são genéricas, não amarradas a um tipo específico. Os métodos em Regras (obrigatorio, maiorQue, tamanhoMinimo, condicao) têm seu próprio <T>.
+A lógica de "campo obrigatório" é escrita uma única vez e serve para qualquer classe —
+o que muda a cada uso é só o extrator passado como argumento (Cliente::nome, Produto::nome), via method reference.
+Isso evita reescrever a mesma verificação para cada entidade do sistema.
+
+2. Validador<T> é uma única classe para infinitos tipos.
+Não existe ValidadorDeCliente e ValidadorDeProduto separados — é a mesma classe genérica instanciada com T diferente em cada caso,
+com segurança de tipos garantida em compilação (o compilador impede misturar uma RegraValidacao<Produto> dentro de um Validador<Cliente>).
+
+3. Combinação fluente das regras. Como adicionar() devolve this, dá para encadear quantas regras forem necessárias para montar o conjunto de validação de um tipo,
+de forma legível e fácil de estender sem tocar no motor.
+
+4. Erros tratados como dado, não como exceção. Cada regra devolve Optional<String> em vez de lançar throw.
+Isso permite acumular todos os erros de uma vez, em vez de parar no primeiro problema —
+essencial para devolver ao usuário a lista completa de campos inválidos de uma só vez.
+
+5. Domínio desacoplado da validação. Cliente, Produto e Pedido não sabem que estão sendo validados: nenhuma anotação, nenhuma interface a implementar.
+Isso permite ter validadores diferentes para o mesmo tipo em contextos diferentes (ex: regras rígidas no cadastro vs. regras mais leves numa importação em lote)
+sem alterar a classe de domínio.
+
