@@ -9,6 +9,7 @@ public class InspesionadorDeClasses {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o nome completo da classe: ");
+        System.out.println("\nEx: Nome -> Package.Class");
         String nome = scanner.nextLine();
 
         try {
