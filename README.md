@@ -64,7 +64,7 @@ Troque `Exercicio1` pelo pacote do exercício que deseja rodar.
 | 7 | Generics Avançados | Bounded types e wildcards | ⬜ Pendente |
 | 8 | Sistema de Comparação | `Comparable` e `Comparator` | ⬜ Pendente |
 | 9 | Framework de Validação | Generics + interface funcional | ⬜ Pendente |
-| 10 | Reflection — Inspeção | Inspeção de classes | ⬜ Pendente |
+| 10 | Reflection — Inspeção | Inspeção de classes | ✅ Concluído |
 | 11 | Reflection — Instanciação | Instanciação dinâmica | ⬜ Pendente |
 | 12 | Reflection — Anotações | Anotações personalizadas | ⬜ Pendente |
 | 13 | Mini ORM | Generics + Reflection | ⬜ Pendente |
