@@ -66,7 +66,7 @@ Troque `Exercicio1` pelo pacote do exercício que deseja rodar.
 | 9 | Framework de Validação | Generics + interface funcional | ⬜ Pendente |
 | 10 | Reflection — Inspeção | Inspeção de classes | ✅ Concluído |
 | 11 | Reflection — Instanciação | Instanciação dinâmica | ✅ Concluído |
-| 12 | Reflection — Anotações | Anotações personalizadas | ⬜ Pendente |
+| 12 | Reflection — Anotações | Anotações personalizadas | ✅ Concluído |
 | 13 | Mini ORM | Generics + Reflection | ⬜ Pendente |
 | 14 | Injeção de Dependência | Container simplificado (IoC) | ⬜ Pendente |
 | 15 | Projeto Final | Framework de comandos refletivo | ⬜ Pendente |
