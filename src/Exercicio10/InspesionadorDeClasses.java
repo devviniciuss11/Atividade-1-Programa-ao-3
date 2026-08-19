@@ -22,7 +22,6 @@ public class InspesionadorDeClasses {
                     + Modifier.toString(classe.getModifiers()));
 
             System.out.println("\n=== ATRIBUTOS ===");
-
             for (Field atributo : classe.getDeclaredFields()) {
 
                 System.out.println(
