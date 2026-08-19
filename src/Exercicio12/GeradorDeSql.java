@@ -34,9 +34,7 @@ public class GeradorDeSql {
                 colunas.append(coluna.nome());
 
                 if (valor instanceof String) {
-                    valores.append("'")
-                            .append(valor)
-                            .append("'");
+                    valores.append("'").append(valor).append("'");
                 } else {
                     valores.append(valor);
                 }
