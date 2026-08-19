@@ -65,7 +65,7 @@ Troque `Exercicio1` pelo pacote do exercício que deseja rodar.
 | 8 | Sistema de Comparação | `Comparable` e `Comparator` | ⬜ Pendente |
 | 9 | Framework de Validação | Generics + interface funcional | ⬜ Pendente |
 | 10 | Reflection — Inspeção | Inspeção de classes | ✅ Concluído |
-| 11 | Reflection — Instanciação | Instanciação dinâmica | ⬜ Pendente |
+| 11 | Reflection — Instanciação | Instanciação dinâmica | ✅ Concluído |
 | 12 | Reflection — Anotações | Anotações personalizadas | ⬜ Pendente |
 | 13 | Mini ORM | Generics + Reflection | ⬜ Pendente |
 | 14 | Injeção de Dependência | Container simplificado (IoC) | ⬜ Pendente |
