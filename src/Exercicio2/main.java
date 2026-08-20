@@ -1,14 +1,19 @@
 package Exercicio2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class main {
     public static void main(String[]Args){
-        Gerente gerente = new Gerente("Alisson","123444",1621.5);
-        System.out.println("salario do Gerente: "+gerente.calcularSalario());
 
-        Estagiario estagiario = new Estagiario("Vinicius","00000001",1621.5);
-        System.out.println("salario do Estagiario: "+estagiario.calcularSalario());
+        List<Funcionario> folha = List.of(
+                new Gerente("Alisson","1234442",1621.5),
+                new Desenvolvedor("Matheus","00000001",1621.5),
+                new Estagiario("Vinicius","00000001",1621.5)
+        );
 
-        Desenvolvedor desenvolvedor = new Desenvolvedor("Vinicius","00000001",1621.5);
-        System.out.println("Salario do desenvolvedor: "+desenvolvedor.calcularSalario());
+        for( Funcionario f : folha ){
+            System.out.printf("%s: Cpf:%s R$ %.2f%n", f.getNome(), f.getCpf(), f.calcularSalario());
+        }
     }
 }

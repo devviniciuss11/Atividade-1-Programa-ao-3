@@ -33,7 +33,7 @@ public class Livro {
     public void setDisponivel(boolean disponivel) {
         this.disponivel = disponivel;
     }
-    public void emprestar(){
+    public void emprestarvr(){
         if(!disponivel) throw new IllegalStateException("Livro Indisponivel");
         disponivel = false;
 

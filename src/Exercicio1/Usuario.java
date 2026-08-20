@@ -24,9 +24,9 @@ public class Usuario {
     public void emprestar(Livro livro){
         long ativos = emprestimos.stream().filter(Emprestimo::isAtivo).count();
         if (ativos >= 3){
-            throw new IllegalStateException("O UsuarioRepository ja possui 3 emprestimos ativos");
+            throw new IllegalStateException("O Usuario ja possui 3 emprestimos ativos, Sendo esse o Maximo de emprestimos permitido por usuario");
         }
-        livro.emprestar();
+        livro.emprestarvr();
         emprestimos.add(new Emprestimo(this, livro));
     }
 

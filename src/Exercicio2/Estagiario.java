@@ -6,6 +6,6 @@ public class Estagiario extends Funcionario{
     }
     @Override
     public double calcularSalario() {
-        return Salario * 10;
+        return Salario / 2;
     }
 }
