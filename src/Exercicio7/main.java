@@ -18,6 +18,9 @@ public class main {
         System.out.println("Media: " + Numero.Media(inteiros));
         System.out.println("Maior: " + Numero.Maior(inteiros));
 
+
+        System.out.println(Numero.maiorComparable(doubles));
+
         //PECS é uma regra para saber quando usar extends e quando usar super em Generics com wildcards.
         //Producer (extends) → quando você lê dados da coleção.
         //Consumer (super) → quando você adiciona dados à coleção.

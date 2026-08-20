@@ -42,13 +42,6 @@ public class Numero{
         }
     }
 
-    //Adicionar numeros
-    public static void adicionaNumeros(Collection<? super Integer> numeros) {
-        numeros.add(10);
-        numeros.add(20);
-        numeros.add(30);
-    }
-
     //comparable para encontrar o maior numero
     public static <T extends Comparable<T>> T maiorComparable(Collection<T> elementos) {
         if (elementos.isEmpty()) {
