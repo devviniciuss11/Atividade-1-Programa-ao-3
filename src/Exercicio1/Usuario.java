@@ -1,7 +1,6 @@
 package Exercicio1;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Usuario {
@@ -31,8 +30,9 @@ public class Usuario {
         emprestimos.add(new Emprestimo(this, livro));
     }
 
-    public List<Emprestimo> getEmprestimos() {
-        return Collections.unmodifiableList(emprestimos);
+    public long quantidadeEmprestimos() {
+        long nEmprestimos = emprestimos.stream().filter(Emprestimo::isAtivo).count();
+        return nEmprestimos;
     }
 
 

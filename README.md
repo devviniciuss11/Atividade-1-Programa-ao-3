@@ -60,10 +60,10 @@ Troque `Exercicio1` pelo pacote do exercício que deseja rodar.
 | 3 | Sistema de Pagamentos | Classes abstratas e interfaces | ✅ Concluído |
 | 4 | Sistema de Descontos | Composição e polimorfismo | ✅ Concluído |
 | 5 | Carrinho de Compras | Associação, composição e imutabilidade | ✅ Concluído |
-| 6 | Cadastro Genérico | Generics em classes e métodos | ⬜ Pendente |
-| 7 | Generics Avançados | Bounded types e wildcards | ⬜ Pendente |
-| 8 | Sistema de Comparação | `Comparable` e `Comparator` | ⬜ Pendente |
-| 9 | Framework de Validação | Generics + interface funcional | ⬜ Pendente |
+| 6 | Cadastro Genérico | Generics em classes e métodos | ✅ Pendente |
+| 7 | Generics Avançados | Bounded types e wildcards | ✅ Pendente |
+| 8 | Sistema de Comparação | `Comparable` e `Comparator` | ✅ Pendente |
+| 9 | Framework de Validação | Generics + interface funcional | ✅ Pendente |
 | 10 | Reflection — Inspeção | Inspeção de classes | ✅ Concluído |
 | 11 | Reflection — Instanciação | Instanciação dinâmica | ✅ Concluído |
 | 12 | Reflection — Anotações | Anotações personalizadas | ✅ Concluído |

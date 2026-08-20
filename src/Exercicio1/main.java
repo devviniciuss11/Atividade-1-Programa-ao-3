@@ -18,9 +18,13 @@ public class main  {
         System.out.println("Livro Disponivel ?: "+livro.isDisponivel());
         livro.devolver();
         System.out.println("Livro Disponivel ?: "+livro.isDisponivel());
-        usuario1.emprestar(livro);
         usuario.emprestar(livro1);
-        usuario1.emprestar(livro1);
+        usuario1.emprestar(livro2);
+        livro2.devolver();
+        Emprestimo emprestimo = new Emprestimo(usuario,livro3);
+        emprestimo.devolver();
+
+        System.out.println("quantidade de emprestimos " + usuario.quantidadeEmprestimos());
 
 
     }
