@@ -27,5 +27,5 @@ public abstract class Pagamento implements ProcesadoraDePagamentos {
     }
 
 
-    protected abstract double calcularValorTaxa();
+    protected abstract double ValorTaxa();
 }

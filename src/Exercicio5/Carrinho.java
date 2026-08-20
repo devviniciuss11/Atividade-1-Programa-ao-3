@@ -23,7 +23,7 @@ public class Carrinho {
         return meuCarrinho.stream().mapToDouble(ItemCarrinho::subtotal).sum();
     }
 
-    public double desconto() { return subtotalTotal() >= 200 ? subtotalTotal() * 0.10 : 0; }
+    public double desconto() { return subtotalTotal() >= 200 ? subtotalTotal() * 0.9 : 0; }
     public double frete() { return subtotalTotal() >= 150 ? 0 : 20; }
     public double total() { return subtotalTotal() - desconto() + frete(); }
 
