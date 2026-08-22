@@ -25,23 +25,63 @@ demonstrar o funcionamento.
 ## Estrutura do projeto
 
 ```
-Atividade/
+Atividade-1-Programa-ao-3/
 ├── src/
-│   ├── Exercicio1/   → Sistema de Biblioteca (Autor, Livro, Usuario, Emprestimo)
-│   ├── Exercicio2/   → Hierarquia de Funcionários (Funcionario, Gerente, Desenvolvedor, Estagiario)
-│   ├── Exercicio3/   → Sistema de Pagamentos (Pagamento, CartaoCredito, Pix, Boleto, ProcesadoraDePagamentos)
-│   ├── Exercicio4/   → Sistema de Descontos (Desconto, RDesconto)
-│   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
-|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+│   ├── Exercicio1/   → Sistema de Biblioteca — Encapsulamento e Modelagem
+│   │                    (Autor, Livro, Usuario, Emprestimo)
+│   │
+│   ├── Exercicio2/   → Hierarquia de Funcionários — Herança e Polimorfismo
+│   │                    (Funcionario, Gerente, Desenvolvedor, Estagiario)
+│   │
+│   ├── Exercicio3/   → Sistema de Pagamentos — Classes Abstratas e Interfaces
+│   │                    (Pagamento, CartaoCredito, Pix, Boleto, ProcesadoraDePagamentos)
+│   │
+│   ├── Exercicio4/   → Sistema de Descontos — Composição e Polimorfismo
+│   │                    (Desconto, RDesconto)
+│   │
+│   ├── Exercicio5/   → Carrinho de Compras — Associação, Composição e Imutabilidade
+│   │                    (Carrinho, Produto, ItemCarrinho)
+│   │
+│   ├── Exercicio6/   → Cadastro Genérico — Generics com Classes e Métodos
+│   │                    (Repositorio<T>, Cliente, Produto, Pedido)
+│   │
+│   ├── Exercicio7/   → Generics Avançados — Bounded Types e Wildcards
+│   │                    (UtilitariosNumericos — soma, média, maior valor,
+│   │                     métodos com ? extends / ? super)
+│   │
+│   ├── Exercicio8/   → Sistema de Comparação — Comparable e Comparator
+│   │                    (Funcionario implements Comparable<Funcionario>,
+│   │                     Comparators por salário e setor)
+│   │
+│   ├── Exercicio9/   → Framework Genérico de Validação
+│   │                    (Validador<T>, RegraValidacao<T>, ResultadoValidacao)
+│   │
+│   ├── Exercicio10/  → Reflection — Inspeção de Classes
+│   │                    (InspetorDeClasses — nome, modificadores, atributos,
+│   │                     construtores e métodos via Class<?>)
+│   │
+│   ├── Exercicio11/  → Reflection — Instanciação Dinâmica
+│   │                    (InstanciadorDinamico — localiza construtor
+│   │                     compatível e cria objetos em runtime)
+│   │
+│   ├── Exercicio12/  → Reflection — Anotações Personalizadas
+│   │                    (@Tabela, @Coluna, GeradorInsert — monta SQL
+│   │                     dinamicamente via Reflection)
+│   │
+│   ├── Exercicio13/  → Mini ORM — Generics + Reflection
+│   │                    (EntityManager<T, ID>, MetaDadosEntity, GeradorSql,
+│   │                     BancoNaMemoria, @Entity, @Id, @Column, User)
+│   │
+│   ├── Exercicio14/  → Injeção de Dependência Simplificada
+│   │                    (Injetor, @Inject, BancoDeDados, UsuarioRepository,
+│   │                     UsuarioService)
+│   │
+│   ├── Exercicio15/  → Projeto Final — Framework de Comandos Genérico e Refletivo
+│   │                    (@Command, CommandResult<T>, FrameworkComandos,
+│   │                     CalculadoraCommands)
+│   │
+│   └── RequisitosDaAtividade/  → PDF com o enunciado original da lista
+│
 └── README.md
 ```
 
@@ -86,7 +126,7 @@ Troque `Exercicio1` pelo pacote do exercício que deseja rodar.
 # Lista de Exercícios — Orientação a Objetos em Java
 
 > **Nível:** Médio a Avançado
-> **Conteúdos:** OO, herança, polimorfismo, abstração, interfaces, composição, Generics e Reflection
+> **Conteúdos:** POO, herança, polimorfismo, abstração, interfaces, composição, Generics e Reflection
 
 **Objetivo:** consolidar fundamentos de orientação a objetos e avançar para recursos da linguagem Java
 usados em projetos reais. Os exercícios foram organizados para exigir modelagem, decisões
