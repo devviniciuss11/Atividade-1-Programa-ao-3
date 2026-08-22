@@ -1,4 +1,4 @@
-# Atividade 1 — Programação 3
+# Atividade 1 — Programação III ☕🔥
 
 Repositório da **primeira atividade da disciplina de Programação 3**, com a resolução da lista de
 exercícios de **Orientação a Objetos em Java**, avançando para **Generics** e **Reflection**.
