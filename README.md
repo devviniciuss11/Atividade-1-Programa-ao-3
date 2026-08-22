@@ -10,7 +10,7 @@ demonstrar o funcionamento.
 
 - Vinicius de Sousa Silva
 - Matheus Guilherme de Paula Santos
-- Igor Guilherme Gustavo
+- Igor Gustavo de Brito Rocha
 
 ---
 
@@ -32,6 +32,16 @@ Atividade/
 │   ├── Exercicio3/   → Sistema de Pagamentos (Pagamento, CartaoCredito, Pix, Boleto, ProcesadoraDePagamentos)
 │   ├── Exercicio4/   → Sistema de Descontos (Desconto, RDesconto)
 │   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
+|   └── Exercicio5/   → Carrinho de Compras (Carrinho, Produto, ItemCarrinho)
 └── README.md
 ```
 
@@ -60,16 +70,16 @@ Troque `Exercicio1` pelo pacote do exercício que deseja rodar.
 | 3 | Sistema de Pagamentos | Classes abstratas e interfaces | ✅ Concluído |
 | 4 | Sistema de Descontos | Composição e polimorfismo | ✅ Concluído |
 | 5 | Carrinho de Compras | Associação, composição e imutabilidade | ✅ Concluído |
-| 6 | Cadastro Genérico | Generics em classes e métodos | ✅ Pendente |
-| 7 | Generics Avançados | Bounded types e wildcards | ✅ Pendente |
-| 8 | Sistema de Comparação | `Comparable` e `Comparator` | ✅ Pendente |
-| 9 | Framework de Validação | Generics + interface funcional | ✅ Pendente |
+| 6 | Cadastro Genérico | Generics em classes e métodos | ✅  Concluído |
+| 7 | Generics Avançados | Bounded types e wildcards | ✅ Concluído |
+| 8 | Sistema de Comparação | `Comparable` e `Comparator` | ✅ Concluído |
+| 9 | Framework de Validação | Generics + interface funcional | ✅ Concluído |
 | 10 | Reflection — Inspeção | Inspeção de classes | ✅ Concluído |
 | 11 | Reflection — Instanciação | Instanciação dinâmica | ✅ Concluído |
 | 12 | Reflection — Anotações | Anotações personalizadas | ✅ Concluído |
-| 13 | Mini ORM | Generics + Reflection | ⬜ Pendente |
-| 14 | Injeção de Dependência | Container simplificado (IoC) | ⬜ Pendente |
-| 15 | Projeto Final | Framework de comandos refletivo | ⬜ Pendente |
+| 13 | Mini ORM | Generics + Reflection | ✅ Concluído |
+| 14 | Injeção de Dependência | Container simplificado (IoC) | ✅ Concluído |
+| 15 | Projeto Final | Framework de comandos refletivo | ✅ Concluído |
 
 ---
 
