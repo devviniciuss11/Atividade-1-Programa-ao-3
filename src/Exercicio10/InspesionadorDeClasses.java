@@ -24,7 +24,8 @@ public class InspesionadorDeClasses {
             System.out.println("\n=== ATRIBUTOS ===");
             for (Field atributo : classe.getDeclaredFields()) {
 
-                System.out.println(Modifier.toString(atributo.getModifiers()) + " " + atributo.getType().getSimpleName() + " " + atributo.getName());
+                System.out.println(Modifier.toString(atributo.getModifiers()) + " "
+                        + atributo.getType().getSimpleName() + " " + atributo.getName());
 
                 if (Modifier.isPrivate(atributo.getModifiers())) {
                     System.out.println("  -> Atributo privado");
